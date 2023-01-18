@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github-profile-overview.netlify.app/" target="_blank">
-<img src="./img/github-profile.png" width="400" alt="GithubProfile Overview Logo"></a></p>
+<img src="./img/github.png" width="400" alt="GithubProfile Overview Logo"></a></p>
 
 
 ## About Github Profile Overview

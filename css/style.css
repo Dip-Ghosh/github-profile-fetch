@@ -37,7 +37,7 @@ input:focus {
 
 .card {
     background-color: #B8C6DB;
-    background-image: linear-gradient(315deg, #4c2885 0%, #4c11ac 100%);
+    background-image: linear-gradient(315deg, #c4c3c7 0%, #8159c3 100%);
     border-radius: 20px;
     box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
         0 15px 40px rgba(0, 0, 0, 0.1);
@@ -47,7 +47,7 @@ input:focus {
 }
 
 .avatar {
-    border: 10px solid #2a2a72;
+    border: 10px solid #8765c000;
     border-radius: 50%;
     height: 150px;
     width: 150px;
