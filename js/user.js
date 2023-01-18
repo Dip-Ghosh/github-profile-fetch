@@ -6,7 +6,6 @@ const main = document.getElementById("main");
 const form = document.getElementById("form");
 const search = document.getElementById("search");
 
-// getUser("florinpop17");
 
 const getUser = async (userName) => {
 
@@ -17,19 +16,23 @@ const getUser = async (userName) => {
 
 
 const createUserCard = (user) => {
+
+    const {avatar_url, name, location,bio, followers,following,public_repos} = user;
+    const place = (location) ? location : '';
+
     const cardHTML = `
         <div class="card">
             <div>
-                <img class="avatar" src="${user.avatar_url}" alt="${user.name}" />
+                <img class="avatar" src="${avatar_url}" alt="${name}" />
             </div>
             <div class="user-info">
-                <h2>${user.name}, ${user.location}</h2>
-                <p>${user.bio}</p>
+                <h2>${name}  ${place} </h2>
+                <p>${bio}</p>
 
                 <ul class="info">
-                    <li>${user.followers}<strong>Followers</strong></li>
-                    <li>${user.following}<strong>Following</strong></li>
-                    <li>${user.public_repos}<strong>Repos</strong></li>
+                    <li>${followers}<strong>Followers</strong></li>
+                    <li>${following}<strong>Following</strong></li>
+                    <li>${public_repos}<strong>Repos</strong></li>
                 </ul>
 
                 <div id="repos"></div>
@@ -54,4 +57,8 @@ form.addEventListener("submit", (event) => {
     }
 });
 
-export { getUser }
+document.addEventListener('DOMContentLoaded', () => {
+    getUser('Dip-Ghosh');
+    getUserRepository('Dip-Ghosh')
+})
+export { getUser , getUserRepository}
