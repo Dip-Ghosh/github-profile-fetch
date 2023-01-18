@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github-profile-overview.netlify.app/" target="_blank">
+<a href="https://dip-github-profile-overview.netlify.app/" target="_blank">
 <img src="./img/github.png" width="400" alt="GithubProfile Overview Logo"></a></p>
 
 
@@ -11,7 +11,7 @@ Simple Github Profile Overview or by using Vanilla JS
 ## Visit Link
 
 We would like to extend our thanks to the following sponsors for funding development.
-If you are interested in becoming a sponsor, please visit the https://github-profile-overview.netlify.app/
+If you are interested in becoming a sponsor, please visit the https://dip-github-profile-overview.netlify.app/
 
 
 
